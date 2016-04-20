@@ -24,4 +24,12 @@ public:
 	int id() { return _id; }
 
 	string description();
+	
+	// Sprawdzanie plci.
+	enum sex_enum
+	{
+		male,
+		female
+	};
+	sex_enum sex();
 };
